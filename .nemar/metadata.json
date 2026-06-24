@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Real World Table Tennis",
+  "description": "This dataset comprises multimodal neurophysiological and biomechanical recordings from 25 participants engaged in real-world table tennis gameplay. Data include high-density dual-layer electroencephalography (EEG), neck electromyography (EMG), inertial measurement unit (IMU) acceleration, structural MRI, and synchronized video recordings. Participants completed 60 minutes of table tennis play against both a ball machine and human opponent, with 10 minutes of standing baseline. Processed data include independent component analysis decomposition and dipole modeling for EEG signals, with raw data available in the sourcedata folder.",
+  "methods_description": "High-density dual-layer EEG, neck EMG, and IMU acceleration were recorded during 60 minutes of table tennis gameplay (ball machine and human opponent) plus 10-minute standing baseline. Structural T1 MRI and synchronized video recordings were acquired for all 25 participants (video data available for 17 participants). EEG data underwent independent component analysis decomposition and dipole modeling. Adobe Premiere project files include marked timing of hit events for video trials.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -22,12 +24,36 @@
       ]
     }
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds004505.v1.0.4",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "electromyography"
+    },
+    {
+      "term": "inertial measurement units"
+    },
+    {
+      "term": "motor control"
+    },
+    {
+      "term": "sports neuroscience"
+    },
+    {
+      "term": "real-world behavior"
+    },
+    {
+      "term": "multimodal neuroimaging"
+    },
+    {
+      "term": "table tennis"
+    },
+    {
+      "term": "structural MRI"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "10.3390/s22155867",
       "identifier_type": "DOI",
@@ -42,6 +68,11 @@
       "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004505",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004505.v1.0.4",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -50,13 +81,13 @@
       "award_number": "BCS-1835317"
     }
   ],
+  "resource_type_specific": "Structural MRI Dataset",
   "modalities": [
     "anat",
     "eeg"
   ],
-  "resource_type_specific": "Structural MRI Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "561.1 GB (1377 files)"
   ],
   "formats": [
     ".eeg",
@@ -70,56 +101,8 @@
     ".tsv",
     ".txt",
     ".vhdr",
-    ".vmrk"
+    ".vmrk",
+    ".yml"
   ],
-  "description": "This dataset comprises multimodal neurophysiological and kinematic recordings from 25 participants engaged in real-world table tennis gameplay. Data include high-density dual-layer electroencephalography, neck electromyography, inertial measurement unit acceleration, structural MRI, and synchronized video recordings. Participants completed 60 minutes of table tennis play against both a ball machine and human opponent, with 10 minutes of standing baseline. Processed data include independent component analysis decomposition and dipole modeling for EEG signals.",
-  "methods_description": "Data were collected from 25 participants performing real-world table tennis tasks (60 minutes total play with ball machine and human player, plus 10 minutes standing baseline). Recordings included high-density dual-layer EEG, neck EMG, IMU acceleration data, T1-weighted structural MRI, and synchronized video. EEG data underwent independent component analysis decomposition and dipole modeling. Raw data are available in the sourcedata folder.",
-  "keywords": [
-    {
-      "term": "high-density EEG"
-    },
-    {
-      "term": "dual-layer EEG"
-    },
-    {
-      "term": "neck electromyography"
-    },
-    {
-      "term": "inertial measurement units"
-    },
-    {
-      "term": "kinematic"
-    },
-    {
-      "term": "motor control"
-    },
-    {
-      "term": "sports performance"
-    },
-    {
-      "term": "real-world movement"
-    },
-    {
-      "term": "multimodal neuroimaging"
-    },
-    {
-      "term": "table tennis"
-    },
-    {
-      "term": "structural MRI"
-    },
-    {
-      "term": "video"
-    },
-    {
-      "term": "baseline"
-    },
-    {
-      "term": "independent component analysis"
-    },
-    {
-      "term": "dipole modeling"
-    }
-  ],
-  "source_hash": "cbfe16a1b9b1a6112d2cc4bce543e0f14d2c40690902d96e9555a76d5a92c42f"
+  "source_hash": "18d1bd2dcb35caf9d69803c202ae70b2176350d9c5e01734d050cd8a3da84e09"
 }
