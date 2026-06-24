@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Real World Table Tennis",
-  "description": "This dataset comprises multimodal neurophysiological and biomechanical recordings from 25 participants engaged in real-world table tennis gameplay. Data include high-density dual-layer electroencephalography (EEG), neck electromyography (EMG), inertial measurement unit (IMU) acceleration, structural MRI, and synchronized video recordings. Participants completed 60 minutes of table tennis play against both a ball machine and human opponent, with 10 minutes of standing baseline. Processed data include independent component analysis decomposition and dipole modeling for EEG signals, with raw data available in the sourcedata folder.",
-  "methods_description": "High-density dual-layer EEG, neck EMG, and IMU acceleration were recorded during 60 minutes of table tennis gameplay (ball machine and human opponent) plus 10-minute standing baseline. Structural T1 MRI and synchronized video recordings were acquired for all 25 participants (video data available for 17 participants). EEG data underwent independent component analysis decomposition and dipole modeling. Adobe Premiere project files include marked timing of hit events for video trials.",
+  "description": "This dataset comprises multimodal neurophysiological and kinematic recordings from 25 participants engaged in real-world table tennis gameplay. The collection includes high-density dual-layer electroencephalography, cervical electromyography, inertial measurement unit acceleration data, structural MRI, and synchronized video recordings. Participants completed 60 minutes of table tennis play against both a ball machine and human opponent, with 10 minutes of standing baseline recording. Processed data include independent component analysis decomposition and dipole modeling for EEG signals.",
+  "methods_description": "Data were collected from 25 participants performing 60 minutes of table tennis play (ball machine and human opponent) plus 10 minutes of standing baseline. Recordings included high-density dual-layer EEG, neck EMG, IMU acceleration, T1 structural MRI, and synchronized video. EEG data underwent independent component analysis decomposition and dipole modeling. Raw data are available in the sourcedata folder.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -26,31 +26,29 @@
   },
   "keywords": [
     {
-      "term": "EEG"
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     },
     {
-      "term": "electromyography"
-    },
-    {
-      "term": "inertial measurement units"
+      "term": "Electromyography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004576"
     },
     {
       "term": "motor control"
     },
     {
-      "term": "sports neuroscience"
+      "term": "real-world movement"
     },
     {
-      "term": "real-world behavior"
-    },
-    {
-      "term": "multimodal neuroimaging"
+      "term": "inertial measurement units"
     },
     {
       "term": "table tennis"
     },
     {
-      "term": "structural MRI"
+      "term": "multimodal neuroimaging"
     }
   ],
   "related_identifiers": [
@@ -78,7 +76,8 @@
   "funding_references": [
     {
       "funder_name": "National Science Foundation",
-      "award_number": "BCS-1835317"
+      "award_number": "BCS-1835317",
+      "award_title": "Division of Behavioral and Cognitive Sciences"
     }
   ],
   "resource_type_specific": "Structural MRI Dataset",
