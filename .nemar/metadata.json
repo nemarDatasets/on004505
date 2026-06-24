@@ -1,0 +1,36 @@
+{
+  "version": "2.0",
+  "dataset_id": "on004505",
+  "source": "openneuro",
+  "source_id": "ds004505",
+  "title": "Real World Table Tennis",
+  "authors": {
+    "Amanda Studnicki": {},
+    "Daniel P. Ferris": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds004505.v1.0.4",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.1.1",
+  "recording_modality": [
+    "anat",
+    "eeg"
+  ],
+  "datatypes": [
+    "anat",
+    "eeg"
+  ],
+  "funding_references": [
+    {
+      "funder_name": "National Science Foundation Division of Behavioral and Cognitive Sciences (BCS-1835317)"
+    }
+  ],
+  "acknowledgements": "Thank-you to the Human Neuromechanics Lab and to all the undergraduate research assistants who helped with data collections: Christina Collings, Corey Orlando, Sebastian Huerta, and Juan De La Espriella."
+}
