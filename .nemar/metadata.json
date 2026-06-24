@@ -1,36 +1,125 @@
 {
   "version": "2.0",
-  "dataset_id": "on004505",
-  "source": "openneuro",
-  "source_id": "ds004505",
+  "pipeline_stage": "validated",
   "title": "Real World Table Tennis",
-  "authors": {
-    "Amanda Studnicki": {},
-    "Daniel P. Ferris": {}
-  },
   "license": "CC0",
   "dataset_type": "raw",
+  "authors": {
+    "Amanda Studnicki": {
+      "orcid": "0000-0003-2835-4452",
+      "affiliations": [
+        {
+          "name": "J. Crayton Pruitt Family Department of Biomedical Engineering, University of Florida, Gainesville, FL 32611, USA"
+        }
+      ]
+    },
+    "Daniel P. Ferris": {
+      "orcid": "0000-0001-6373-6021",
+      "affiliations": [
+        {
+          "name": "J. Crayton Pruitt Family Department of Biomedical Engineering, University of Florida, Gainesville, FL 32611, USA"
+        }
+      ]
+    }
+  },
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004505.v1.0.4",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "10.3390/s22155867",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on004505",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004505",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.1.1",
-  "recording_modality": [
-    "anat",
-    "eeg"
-  ],
-  "datatypes": [
-    "anat",
-    "eeg"
   ],
   "funding_references": [
     {
-      "funder_name": "National Science Foundation Division of Behavioral and Cognitive Sciences (BCS-1835317)"
+      "funder_name": "National Science Foundation",
+      "award_number": "BCS-1835317"
     }
   ],
-  "acknowledgements": "Thank-you to the Human Neuromechanics Lab and to all the undergraduate research assistants who helped with data collections: Christina Collings, Corey Orlando, Sebastian Huerta, and Juan De La Espriella."
+  "modalities": [
+    "anat",
+    "eeg"
+  ],
+  "resource_type_specific": "Structural MRI Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".fdt",
+    ".json",
+    ".md",
+    ".mp4",
+    ".nii",
+    ".prproj",
+    ".set",
+    ".tsv",
+    ".txt",
+    ".vhdr",
+    ".vmrk"
+  ],
+  "description": "This dataset comprises multimodal neurophysiological and kinematic recordings from 25 participants engaged in real-world table tennis gameplay. Data include high-density dual-layer electroencephalography, neck electromyography, inertial measurement unit acceleration, structural MRI, and synchronized video recordings. Participants completed 60 minutes of table tennis play against both a ball machine and human opponent, with 10 minutes of standing baseline. Processed data include independent component analysis decomposition and dipole modeling for EEG signals.",
+  "methods_description": "Data were collected from 25 participants performing real-world table tennis tasks (60 minutes total play with ball machine and human player, plus 10 minutes standing baseline). Recordings included high-density dual-layer EEG, neck EMG, IMU acceleration data, T1-weighted structural MRI, and synchronized video. EEG data underwent independent component analysis decomposition and dipole modeling. Raw data are available in the sourcedata folder.",
+  "keywords": [
+    {
+      "term": "high-density EEG"
+    },
+    {
+      "term": "dual-layer EEG"
+    },
+    {
+      "term": "neck electromyography"
+    },
+    {
+      "term": "inertial measurement units"
+    },
+    {
+      "term": "kinematic"
+    },
+    {
+      "term": "motor control"
+    },
+    {
+      "term": "sports performance"
+    },
+    {
+      "term": "real-world movement"
+    },
+    {
+      "term": "multimodal neuroimaging"
+    },
+    {
+      "term": "table tennis"
+    },
+    {
+      "term": "structural MRI"
+    },
+    {
+      "term": "video"
+    },
+    {
+      "term": "baseline"
+    },
+    {
+      "term": "independent component analysis"
+    },
+    {
+      "term": "dipole modeling"
+    }
+  ],
+  "source_hash": "cbfe16a1b9b1a6112d2cc4bce543e0f14d2c40690902d96e9555a76d5a92c42f"
 }
