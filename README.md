@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on004505-blue)](https://doi.org/10.82901/nemar.on004505)
+
 Our dataset contains high-density, dual-layer electroencephalography (EEG), neck electromyography (EMG), inertial measurement unit (IMU) acceleration, T1 structural MR images, and video data from 25 participants playing real-world table tennis. Participants played 60 minutes of table tennis (in total) with a ball machine and a human player, with an additional 10 minutes of standing baseline. For 17 of the participants, we also include video data of all trials. The Adobe Premiere project files (linked to each video) have the timing of hit events marked.
 
 Data in the main subject folders have been processed. We include the ICA decomposition and dipole model in EEG.etc. The components retained in our analyses are shown in EEG.etc.KeepComponents. The raw data can be found in the sourcedata folder.    
