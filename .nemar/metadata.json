@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Real World Table Tennis",
-  "description": "This dataset comprises high-density, dual-layer EEG, neck EMG, IMU acceleration, T1-weighted structural MRI, and video recordings from 25 participants performing real-world table tennis. Participants engaged in 60 minutes of table tennis play with a ball machine and a human opponent, along with 10 minutes of standing baseline recording. The dataset supports investigation of neural and physiological correlates of natural, whole-body motor behavior during a dynamic real-world sport task.",
-  "methods_description": "Data were collected using high-density, dual-layer EEG, neck EMG, IMU acceleration sensors, T1 structural MRI, and video recordings. Video data with marked hit events (via Adobe Premiere project files) were collected for 17 of the 25 participants. Processed subject data include ICA decomposition and dipole modeling, with retained components documented in EEG.etc.KeepComponents; raw data are available in the sourcedata folder.",
+  "description": "A multimodal dataset of high-density, dual-layer EEG, neck EMG, inertial measurement unit acceleration, T1 structural MRI, and video recorded from 25 participants playing real-world table tennis. Each participant played 60 minutes of table tennis against a ball machine and a human player, plus a 10-minute standing baseline. Processed data include ICA decompositions and dipole models, with raw data in the sourcedata folder.",
+  "methods_description": "Dual-layer high-density EEG, neck EMG, and IMU acceleration were recorded during 60 minutes of table tennis with a ball machine and a human player, plus a 10-minute standing baseline. Video was recorded for 17 participants, with hit events marked in Adobe Premiere project files. Processed data include ICA decomposition and dipole models stored in EEG.etc, with retained components in EEG.etc.KeepComponents.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -26,9 +26,10 @@
   },
   "keywords": [
     {
-      "term": "Electroencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+      "term": "EEG"
+    },
+    {
+      "term": "dual-layer EEG"
     },
     {
       "term": "Electromyography",
@@ -39,13 +40,7 @@
       "term": "table tennis"
     },
     {
-      "term": "mobile brain/body imaging"
-    },
-    {
-      "term": "motor control"
-    },
-    {
-      "term": "inertial measurement unit"
+      "term": "motion artifacts"
     },
     {
       "term": "independent component analysis"
@@ -55,7 +50,7 @@
     {
       "identifier": "10.3390/s22155867",
       "identifier_type": "DOI",
-      "relation_type": "References"
+      "relation_type": "IsDescribedBy"
     },
     {
       "identifier": "https://github.com/nemarDatasets/on004505",
@@ -75,7 +70,7 @@
   ],
   "funding_references": [
     {
-      "funder_name": "National Science Foundation",
+      "funder_name": "National Science Foundation Division of Behavioral and Cognitive Sciences",
       "award_number": "BCS-1835317"
     }
   ],
@@ -85,7 +80,7 @@
     "eeg"
   ],
   "sizes": [
-    "561.1 GB (1377 files)"
+    "523 GB (1377 files)"
   ],
   "formats": [
     ".eeg",
